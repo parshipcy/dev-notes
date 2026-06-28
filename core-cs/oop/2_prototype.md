@@ -184,7 +184,6 @@ Inside the method, `this` becomes that instance.
 | Prototype        | Stores shared methods (one copy, all instances use it) | `BankAccount.prototype.deposit`     |
 | Prototype chain  | How JS finds a method when it is not on the object   | `rakeshAccount` → `BankAccount.prototype` |
 | Instance         | A specific object created from the blueprint         | `rakeshAccount`                     |
-| Shared method    | One function in memory, used by every instance       | `BankAccount.prototype.deposit`   |
 
 ---
 
